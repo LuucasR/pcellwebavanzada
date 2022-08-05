@@ -492,6 +492,91 @@ border-bottom-left-radius: 30px;
 border-bottom-right-radius: 30px;
 background-color: hsl(32,51%,83%);
 }
+.padreredes {
+    width: 80%;
+    height: 100%;
+  margin: 0 auto;
+    padding: 50px 0 50px 0;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+   grid-template-areas: 
+   "redesone"
+   "redestwo"
+   "redesthree"
+   "redesfour";
+   }
+
+.redesone{
+    grid-row: 1/3;
+    width: 80%;
+    height: 100%;
+    margin: 30px 0 0 40px;
+    justify-content: center;
+    text-align: center;
+}
+.redesonetexto{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    color: rgb(71, 71, 71);
+    position: end;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.padreredes h3{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(32,51%,83%);
+}
+.masinfo{
+    text-decoration: none;
+    color:black;
+    background-color: hsl(32,51%,83%) ;
+    padding: 12px;
+    margin:0 auto;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.redestwo{
+    margin-left: 160px;
+    grid-row: 1/3;
+    grid-column: 2/3;
+    width: 50%;
+    height: 85%;
+    background: url(./Imagenes/recomendaciones/mujer.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border: 3px hsl(32,51%,83%) solid;
+}
+/* .redesthree{
+   margin: 0 auto;
+    width: 50%;
+    height: 60%;
+    padding-top: 20px 0 0 20px;
+} */
+
+
+.redesfour{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-left: 60px;
+    width: 50%;
+    height: 100%;
+    background: url(./Imagenes/recomendaciones/taller.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border: 3px hsl(32,51%,83%) solid;
+}
+
+
+
+
 @media (max-width:949px) {
     section .contenedorflex{
         flex-direction: column;
@@ -636,6 +721,89 @@ flex-direction: column;
         align-items: center;
         font-size: 20px;
     }
+    .padreredes {
+        width: 90%;
+        height: 100%;
+      margin: 0 auto;
+        padding: 50px 0 50px 0;
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+       grid-template-areas: 
+       "redesone"
+       "redestwo"
+       "redesthree"
+       "redesfour";
+       }
+    
+    .redesone{
+        margin: 0%;
+        grid-row: 1/3;
+        width: 70%;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .redesonetexto{
+        width: 100%;
+        height: 100%;
+
+        color: rgb(71, 71, 71);
+        position: end;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+    }
+    .padreredes h3{
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: hsl(32,51%,83%);
+    }
+    .masinfo{
+        text-decoration: none;
+        color:black;
+        background-color: hsl(32,51%,83%) ;
+        padding: 8px;
+        margin:0 auto;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    
+    .redestwo{
+        margin: 0%;
+        grid-row: 1/3;
+        grid-column: 2/3;
+        width: 90%;
+        height: 100%;
+        background: url(./Imagenes/recomendaciones/mujer.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        border: 3px hsl(32,51%,83%) solid;
+    }
+    /* .redesthree{
+       margin: 0 auto;
+        width: 50%;
+        height: 60%;
+        padding-top: 20px 0 0 20px;
+    } */
+    
+    
+    .redesfour{
+        display: none;
+        /* grid-row: 2/3;
+        grid-column: 2/3;
+        margin-left: 60px;
+        width: 50%;
+        height: 100%;
+        background: url(./Imagenes/recomendaciones/taller.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        border: 3px hsl(32,51%,83%) solid; */
+    }
+       
 }
 
 @media (max-width:700px) {
@@ -798,5 +966,72 @@ section .contenedorflex .separador .cuadrocuatro{
     text-align: left;
     align-items: center;
     font-size: 15px;
+}
+.padreredes {
+    width: 90%;
+    height: 100%;
+  margin: 0 auto;
+    padding: 50px 0 50px 0;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+   grid-template-areas: 
+   "redesone"
+   "redestwo"
+   "redesthree"
+   "redesfour";
+   }
+
+.redesone{
+    margin: 0 auto;
+    grid-row: 1/2;
+    grid-column: 1/3;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.redesonetexto{
+    padding-bottom: 20px;
+    width: 100%;
+    height: 90%;
+    color: rgb(71, 71, 71);
+    position: end;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+.padreredes h3{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(32,51%,83%);
+}
+.masinfo{
+    text-decoration: none;
+    color:black;
+    background-color: hsl(32,51%,83%) ;
+    padding: 8px;
+    margin:0 auto;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.redestwo{
+    margin: 0 auto;
+    grid-row: 2/3;
+    grid-column: 1/3;
+    width: 90%;
+    height: 100%;
+    background: url(./Imagenes/recomendaciones/mujer.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    border: 3px hsl(32,51%,83%) solid;
+}
+
+.redesfour{
+    display: none;
+
 }
 }
