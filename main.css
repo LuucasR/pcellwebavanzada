@@ -578,40 +578,13 @@ background-color: hsl(32,51%,83%);
        color: white;
        }
 
-       .aboutme .imagen{
-        width: 70%;
-        height: 400px;
-        background:url(./Imagenes/iphone/iphone12.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 50%;
-        margin: 20px;
-        margin-left: 0px 20px 0px 20px;
-    }
-    .aboutme{
-        width: 100%;
-        height: 100%;
-        background-color: hsl(202deg 86% 9%);
+       .aboutme{
+
         display: flex;
-        justify-content: center;
-        align-items: center;
-       padding: 70px 0 70px 0;
-       flex-wrap: wrap;
-       flex-direction: column;
+flex-direction: column;
     
     }
-    .aboutme .texto{
-        width: 20%;
-        height: 100%;
-        /* background:url(./Imagenes/iphone/iphone12.png) ; */
-        margin-left: 20px;
-        text-align: left;
-        align-items: center;
-        font-size: 15px;
-    }
-    .aboutme .texto .moreinfo{
-        font-size: 10px;
-    }
+
     .equipo .equipoflex{
         width: 100%;
         height: 100%;
@@ -647,14 +620,12 @@ background-color: hsl(32,51%,83%);
         align-items: flex-end;
     }
     .aboutme .imagen{
-        width: 80%;
-        height: 600px;
+        width: 100%;
+        height: 400px;
         background:url(./Imagenes/iphone/iphone12.png) ;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 85%;
-        margin: 20px;
-        margin-left: 0px 20px 0px 20px;
+        background-size: 40%;
     }
     .aboutme .texto{
         width: 60%;
@@ -663,7 +634,7 @@ background-color: hsl(32,51%,83%);
         margin-left: 20px;
         text-align: left;
         align-items: center;
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
@@ -721,13 +692,12 @@ header .contenidomenures ul li:hover{
     }
 
     .aboutme .imagen{
-        width: 80%;
-        height: 600px;
+        width: 70%;
+        height: 400px;
         background:url(./Imagenes/iphone/iphone12.png) ;
         background-repeat: no-repeat;
         background-position: center;
         background-size: 90%;
-        margin: 20px;
         margin-left: 0px 20px 0px 20px;
     }
     .aboutme .texto{
@@ -813,12 +783,11 @@ section .contenedorflex .separador .cuadrocuatro{
 }
 .aboutme .imagen{
     width: 80%;
-    height: 600px;
+    height: 400px;
     background:url(./Imagenes/iphone/iphone12.png) ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
-    margin: 20px;
     margin-left: 0px 20px 0px 20px;
 }
 .aboutme .texto{
