@@ -1,0 +1,776 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    width: 100%;
+    height: 1000px;
+    background-color: hsl(202deg 86% 9%);
+    font-family: 'Poppins', sans-serif;
+
+}
+header .linea{
+    width: 100%;
+    height: 1px;
+background-color: rgb(255, 255, 255);
+/* margin: 10px auto; */
+
+}
+header .inicio{
+  color: hsl(105deg 75% 76%);
+}
+header nav {
+    background-color: hsl(202deg 86% 9%);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    justify-content: right;
+}
+/* nav .logo{
+    margin: 10px 840px 0 0;
+    width: 100px;
+    height: 100px;
+    background:url(./Imagenes/Logo/pcellazul.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+header nav ul{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 20px;
+    height: 100%;
+}
+header nav ul li{
+    text-decoration: none;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: hsl(198deg 9% 79%);
+    font-size: 20px;
+}
+
+header .padreheader{
+    width: 80%;
+    margin: 40px auto;
+    padding: 40px;
+    display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "one"
+    "two"
+    "three"
+    "four";
+    }
+    header .one{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        position: relative;
+    }
+header .imageone{
+    grid-row: 1/2;
+    width: 400px;
+    height: 400px;
+    background:url(./Imagenes/primeras/imgthree.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px hsl(193,59%,76%) solid;
+   margin: 0 auto auto 0;
+}
+
+header .two{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+header .imagetwo{
+    height: 70%;
+   color: white;
+   }
+
+   header h1{
+    font-size: 50px;
+    margin: 35px
+   }
+   header a{
+    text-decoration: none;
+   }
+/* header .two .logo{
+    width: 150px;
+    height: 150px;
+    background-color: hsl(32,51%,83%);
+    float: right;
+    margin: 90px auto;
+    background:url(./Imagenes/iphone/iphone121.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    
+} */
+   header .two .imagetwo p{
+    font-size: 30px;
+   }
+
+header .three{
+    grid-row: 1/3;
+    grid-column: 1/3;
+}
+header .imagethree{
+    width: 50%;
+    height: 45%;
+    background:url(./Imagenes/primeralarga/imagen1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px hsl(32,51%,83%)solid;
+   margin: 280px 600px auto auto;
+   border-top-right-radius: 180px;
+   border-bottom-left-radius: 180px;
+}
+
+header .four{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+header .imagefour{
+    width: 40%;
+    height: 72%;
+   margin: 0 auto;
+   text-align: center;
+   background: url(./Imagenes/iphone/iphone12.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   }
+/* FIN header */
+/* INICIO MENU RES  */
+header .menures{
+width: 30px;
+height: 45px;
+position: absolute;
+cursor: pointer;
+display: none;
+}
+
+header .contenidomenures{
+    display: none;
+}
+
+header  .menures span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 8px;
+   background-color: beige;
+   transition: 700ms;
+   transform-origin: 0px 100%;
+}
+
+.lineas1{
+    transform: rotate(45deg) translate(0px,0px);
+}
+.lineas2{
+margin-left: -300px;
+   /* opacity: 0; */
+}
+.lineas3{
+    transform: rotate(-45deg) translate(0px,2px);
+}
+/* FIN MENU RES  */
+/* INICIO SECTION */
+section{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.733);
+    padding-bottom: 50px;
+}
+
+section h2{
+    text-align: center;
+   padding: 5px;
+    font-size: 60px;
+}
+
+section p{
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+section .contenedorflex{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section .contenedorflex div{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;;
+}
+
+section .cuadrouno{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    background-color:  hsl(202deg 86% 9%);
+}
+section .cuadrodos{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    background-color:  hsl(202deg 86% 9%);
+}
+section .cuadrotres{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    background-color:  hsl(202deg 86% 9%);
+}
+section .cuadrocuatro{
+    border-radius: 20px;
+    background-color:  hsl(202deg 86% 9%);
+    width: 500px;
+    height: 400px;
+}
+
+.aboutme{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(202deg 86% 9%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 70px 0 70px 0;
+
+}
+.aboutme .imagen{
+    width: 43%;
+    height: 600px;
+    background:url(./Imagenes/iphone/iphone12.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    margin: 20px;
+    margin-left: 0px 20px 0px 20px;
+}
+
+.aboutme .texto{
+    width: 20%;
+    height: 100%;
+    /* background:url(./Imagenes/iphone/iphone12.png) ; */
+    margin-left: 20px;
+    text-align: left;
+    align-items: center;
+    font-size: 20px;
+}
+
+.aboutme h3 {
+   color:hsl(32,51%,83%) ;
+   font-family: 'Poppins', sans-serif;
+}
+.aboutme p {
+    color:white ;
+    font-family: 'Poppins', sans-serif;
+ }
+.aboutme .moreinfo{
+    text-decoration: none;
+    color:black;
+    background-color: hsl(32,51%,83%) ;
+    padding: 12px;
+    margin-left: 2px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.trabajo{
+    width: 100%;
+    height:100%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.trabajoflex{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 20px;
+}
+.trabajo h3{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+}
+.trabajoflex .flexone{
+    width: 24%;
+    height: 100%;
+}
+.trabajoflex .flextwo{
+    width: 24%;
+    height: 100%;
+}
+.trabajoflex .flexthree{
+    width: 24%;
+    height: 100%;
+}
+.trabajoflex .flexfour{
+    width: 24%;
+  height: 100%;
+}
+
+.imgone{
+    margin: 0 auto;
+    width: 25%;
+    height: 130px;
+    background-color: aqua;
+    text-align: center;
+background: url(./Imagenes/Iconos/Recepcionb.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 95%;
+}
+.imgtwo{
+    margin: 0 auto;
+    width: 25%;
+    height: 130px;
+    text-align: center;
+background: url(./Imagenes/Iconos/inspeccion.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 95%;
+}
+.imgthree{
+    margin: 0 auto;
+    width: 25%;
+    height: 130px;
+    text-align: center;
+background: url(./Imagenes/Iconos/reparacion.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 95%;
+}
+.imgfour{
+    margin: 0 auto;
+    width: 25%;
+    height: 130px;
+    text-align: center;
+background: url(./Imagenes/Iconos/cobro.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 95%;
+}
+
+.trabajo .trabajoflex p{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.equipo{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(202deg 86% 9%);
+    padding: 40px 0 40px 0;
+    text-align: center;
+}
+
+.equipo h3{
+    font-size: 30px;
+    color: hsl(32,51%,83%);
+margin: 20px;
+padding-bottom: 30px;
+font-family: 'Poppins', sans-serif;
+}
+.equipo .equipoflex p{
+    font-size: 20px;
+    text-align: center;
+    margin: 70px auto;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.equipo .equipoflex{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px ;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+.equipo .equipoflex .flexone {
+    width: 31%;
+}
+.equipo .equipoflex .flextwo {
+    width: 31%;
+}
+.equipo .equipoflex .flexthree {
+    width: 31%;
+}
+.equipo .equipoflex .personone{
+    width:100%;
+    height: 550px;
+    border-radius: 30px;
+    background: url(./Imagenes/personal/mujer.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 730px;
+    background-color: hsl(32,51%,83%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+.equipo .equipoflex .personone .chicoone{
+    width: 100%;
+    height: 30%;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+background-color: hsl(32,51%,83%);
+}
+.equipo .equipoflex .persontwo{
+    width:100%;
+    height: 550px;
+    background: url(./Imagenes/personal/woody.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 670px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+.equipo .equipoflex .persontwo .chicotwo{
+    width: 100%;
+    height: 30%;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+background-color: hsl(32,51%,83%);
+}
+.equipo .equipoflex .personthree{
+    width:100%;
+    height: 550px;
+    background: url(./Imagenes/personal/programador.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 670px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+.equipo .equipoflex .personthree .chicothree{
+    width: 100%;
+    height: 30%;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+background-color: hsl(32,51%,83%);
+}
+@media (max-width:949px) {
+    section .contenedorflex{
+        flex-direction: column;
+
+    }
+
+    .separador{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:1024px) {
+    /* *{background-color: black;} */
+    header .padreheader{
+        width: 80%;
+        margin: 40px auto;
+        padding: 40px;
+        display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: 1fr;
+        grid-template-areas: 
+        "one"
+        "two"
+        "three"
+        "four";
+        justify-items: center;
+        }
+
+        /* header .three{
+            grid-row: 0/0;
+            grid-column: 0/0;
+        } */
+        header .imagethree{
+            display: none;
+            /* width: 0%;
+            height: 0%; */
+            /* background:url(./Imagenes/primeralarga/imagen.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover; */
+            /* border: 0px hsl(32,51%,83%)solid; */
+           /* margin: 280px 600px auto auto;
+           border-top-right-radius: 180px;
+           border-bottom-left-radius: 180px; */
+        }
+
+        header .imagefour{
+            width: 0%;
+            height: 0%;
+            /* background:url(./Imagenes/primeralarga/imagen.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border: 3px hsl(32,51%,83%)solid;
+           margin: 280px 600px auto auto;
+           border-top-right-radius: 180px;
+           border-bottom-left-radius: 180px; */
+        }
+        
+        header .one{
+            grid-row: 2/3;
+            grid-column: 1/2;
+            position: relative;
+        }
+    header .imageone{
+        grid-row: 1/2;
+        width: 400px;
+        height: 400px;
+        background:url(./Imagenes/primeras/imgthree.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 3px hsl(193,59%,76%) solid;
+       margin: 0 auto auto 0;
+    }
+
+    header .two{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    header .imagetwo{
+        height: 70%;
+       color: white;
+       }
+
+       .aboutme .imagen{
+        width: 70%;
+        height: 400px;
+        background:url(./Imagenes/iphone/iphone12.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 50%;
+        margin: 20px;
+        margin-left: 0px 20px 0px 20px;
+    }
+    .aboutme{
+        width: 100%;
+        height: 100%;
+        background-color: hsl(202deg 86% 9%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       padding: 70px 0 70px 0;
+       flex-wrap: wrap;
+       flex-direction: column;
+    
+    }
+    .aboutme .texto{
+        width: 20%;
+        height: 100%;
+        /* background:url(./Imagenes/iphone/iphone12.png) ; */
+        margin-left: 20px;
+        text-align: left;
+        align-items: center;
+        font-size: 15px;
+    }
+    .aboutme .texto .moreinfo{
+        font-size: 10px;
+    }
+    .equipo .equipoflex{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px ;
+        flex-wrap: wrap;
+        padding-bottom: 60px;
+        flex-direction: column;
+    }
+    .equipo .equipoflex .flexone {
+        width: 65%;
+    }
+    .equipo .equipoflex .flextwo {
+        width: 65%;
+    }
+    .equipo .equipoflex .flexthree {
+        width:65%;
+    }
+    .equipo .equipoflex .personone{
+        width:100%;
+        height: 550px;
+        border-radius: 30px;
+        background: url(./Imagenes/personal/mujer.webp);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 730px;
+        background-color: hsl(32,51%,83%);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: flex-end;
+    }
+}
+
+@media (max-width:700px) {
+    header .menures {
+    display: block;
+    margin: 20px;
+    position: absolute;
+z-index: 500;
+}
+
+header nav {
+display: none;
+}
+header .contenidomenures{
+    width: 100%;
+    transition: 700ms;
+    text-align: center;
+    /* margin-left: -300px; */
+    opacity: 0;
+    transition: 650ms;
+    position: absolute;
+    display: block !important;
+    z-index: 499;
+    background-color:hsl(202deg 86% 9%);
+}
+header .contenidomenuresbefore{
+opacity: 5;
+/* margin-left: 100px; */
+}
+
+
+header .contenidomenures ul{
+    list-style: none;
+    text-decoration: none;
+ 
+}
+header .contenidomenures ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+header .contenidomenures ul li {
+    list-style: none;
+    text-decoration: none;
+  padding: 20px;
+}
+header .contenidomenures ul li a:hover{
+color: blanchedalmond;
+}
+
+header .contenidomenures ul li:hover{
+    background-color: rgb(27, 43, 66);
+    border-radius: 30px;
+    }
+
+}
+
+@media (max-width:473px) {
+    header .padreheader{
+padding: 20px;
+    }
+header .padreheader .two h1{
+    font-size: 30px;
+}
+header .padreheader .two p{
+    font-size: 20px;
+}
+header .padreheader .one .imageone{
+    width: 200px;
+    height: 300px;
+}
+section .contenedorflex {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+section h2{
+    font-size: 25px;
+}
+section p{
+    font-size: 18px;
+}
+
+section .contenedorflex .separador .cuadrouno{
+    width: 250px;
+    height: 200px;
+}
+section .contenedorflex .separador .cuadrodos{
+    width: 250px;
+    height: 200px;
+}
+section .contenedorflex .separador .cuadrotres{
+    width: 250px;
+    height: 200px;
+}
+section .contenedorflex .separador .cuadrocuatro{
+    width: 250px;
+    height: 200px;
+}
+.equipo .equipoflex .flexone {
+    width: 90%;
+}
+.equipo .equipoflex .flextwo {
+    width: 90%;
+}
+.equipo .equipoflex .flexthree {
+    width:90%;
+}
+.equipo .equipoflex .personone{
+    width:100%;
+    height: 550px;
+    border-radius: 30px;
+    background: url(./Imagenes/personal/lazorra.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 730px;
+    background-color: hsl(32,51%,83%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+}
