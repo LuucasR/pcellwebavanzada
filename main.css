@@ -647,7 +647,7 @@ background-color: hsl(32,51%,83%);
         align-items: flex-end;
     }
     .aboutme .imagen{
-        width: 100%;
+        width: 80%;
         height: 600px;
         background:url(./Imagenes/iphone/iphone12.png) ;
         background-repeat: no-repeat;
@@ -721,7 +721,7 @@ header .contenidomenures ul li:hover{
     }
 
     .aboutme .imagen{
-        width: 100%;
+        width: 80%;
         height: 600px;
         background:url(./Imagenes/iphone/iphone12.png) ;
         background-repeat: no-repeat;
@@ -812,7 +812,7 @@ section .contenedorflex .separador .cuadrocuatro{
     align-items: flex-end;
 }
 .aboutme .imagen{
-    width: 100%;
+    width: 80%;
     height: 600px;
     background:url(./Imagenes/iphone/iphone12.png) ;
     background-repeat: no-repeat;
