@@ -570,15 +570,15 @@ footer{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: column;
 padding-top: 40px;
 gap: 40px   ;
 }
 footer .contenedorone{
     display: flex;
     gap: 60px   ;
-    width: 27%;
-    height: 110%;
-    flex-wrap: wrap;
+    width: 40%;
+    height: 10%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -995,7 +995,7 @@ header .contenidomenures ul li:hover{
         "three"
         "four";
         height: 100%;
-         padding: 0%;
+        padding: 0%;
         }
     
             header .three{
@@ -1227,7 +1227,7 @@ footer .contenedorone{
     width: 80%;
     margin-bottom: 10px;
     margin: 0%;
-    padding: 0%;
+    padding-bottom: 20px;
 }
 footer .contenedorone .facebook{
     width: 20%;
