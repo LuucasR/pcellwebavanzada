@@ -985,9 +985,42 @@ header .contenidomenures ul li:hover{
 }
 
 @media (max-width:473px) {
+
     header .padreheader{
-padding: 20px;
-    }
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "one"
+        "two"
+        "three"
+        "four";
+        }
+    
+            header .three{
+                grid-row: 3/4;
+                grid-column: 1/2;
+        display: block;
+        margin-top: 10px;
+        padding: 0%;
+        background: url(./Imagenes/primeras/Pcell.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width:60%;
+        height: 90%;
+        border: 3px hsl(193,59%,76%) solid;
+            }
+        header .padreheader .two h1{
+            font-size: 35px;
+        }
+        header .padreheader .two p{
+            font-size: 25px;
+        }
+        header .padreheader .one .imageone{
+            width: 200px;
+            height: 300px;
+        }
+
 header .padreheader .two h1{
     font-size: 30px;
 }
