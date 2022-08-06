@@ -268,8 +268,7 @@ section .cuadrocuatro{
     background:url(./Imagenes/iphone/iphone12.png) ;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 70%;
-    margin: 20px;
+    background-size: 75%;
     margin-left: 0px 20px 0px 20px;
 }
 
@@ -423,13 +422,13 @@ font-family: 'Poppins', sans-serif;
     padding-bottom: 60px;
 }
 .equipo .equipoflex .flexone {
-    width: 31%;
+    width: 22%;
 }
 .equipo .equipoflex .flextwo {
-    width: 31%;
+    width: 22%;
 }
 .equipo .equipoflex .flexthree {
-    width: 31%;
+    width: 22%;
 }
 .equipo .equipoflex .personone{
     width:100%;
@@ -492,6 +491,7 @@ border-bottom-left-radius: 30px;
 border-bottom-right-radius: 30px;
 background-color: hsl(32,51%,83%);
 }
+
 .padreredes {
     width: 80%;
     height: 100%;
@@ -573,6 +573,7 @@ background-color: hsl(32,51%,83%);
     background-size: cover;
     border: 3px hsl(32,51%,83%) solid;
 }
+
 footer{
     width: 100%;
     height: 100%;
