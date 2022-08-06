@@ -1216,7 +1216,7 @@ section .contenedorflex .separador .cuadrocuatro{
     background: url(./Imagenes/personal/woody.jpg);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 670px;
+    background-size: cover;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -1231,7 +1231,7 @@ section .contenedorflex .separador .cuadrocuatro{
     background: url(./Imagenes/personal/programador.jpg);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 670px;
+    background-size: cover;
     border-radius: 30px;
     display: flex;
     justify-content: center;
