@@ -1215,7 +1215,6 @@ footer{
     height: 100%;
     background-color: hsl(202deg 86% 9%);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -1231,23 +1230,23 @@ footer .contenedorone{
     padding: 0%;
 }
 footer .contenedorone .facebook{
-    width: 30%;
-    height: 100px;
+    width: 20%;
+    height: 100%;
     background-size: 50%;
 }
 footer .contenedorone .instagram{
-    width: 30%;
-    height: 100px;
+    width: 20%;
+    height: 100%;
     background-size: 50%;
 }
 footer .contenedorone .whatapp{
-    width: 30%;
-    height: 100px;
+    width: 20%;
+    height: 100%;
     background-size: 50%;
 }
 footer .contenedorone .gmail{
-    width: 30%;
-    height: 100px;
+    width: 20%;
+    height: 100%;
     background-size: 50%;
 }
 
