@@ -5,17 +5,22 @@
     padding: 0;
 
 }
+/* hsl(202deg 86% 9%) */
 header{
     width: 100%;
     height: 1000px;
     background-color: hsl(202deg 86% 9%);
+    background:url(./Imagenes/primeralarga/s22ultra.png)  hsl(202deg 86% 9%);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
     font-family: 'Poppins', sans-serif;
 
 }
 header .linea{
     width: 100%;
     height: 1px;
-background-color: rgb(255, 255, 255);
+background-color: hsl(171,17%,30%);
 /* margin: 10px auto; */
 
 }
@@ -87,7 +92,7 @@ header .imageone{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 3px hsl(32,51%,83%) solid;
+    border: 3px hsl(171,17%,30%) solid;
    margin: 0 auto auto 0;
 }
 
@@ -119,11 +124,11 @@ header .three{
 header .imagethree{
     width: 50%;
     height: 45%;
-    background:url(./Imagenes/primeralarga/imagen1.jpg);
+    background:url(./Imagenes/primeralarga/imagen5.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border: 3px hsl(32,51%,83%)solid;
+    border: 3px hsl(171,17%,30%)solid;
    margin: 280px 600px auto auto;
    border-top-right-radius: 180px;
    border-bottom-left-radius: 180px;
@@ -736,7 +741,17 @@ footer p{
         "four";
         justify-items: center;
         }
-
+        header{
+            width: 100%;
+            height: 1000px;
+            background-color: hsl(202deg 86% 9%);
+            background:url(./Imagenes/primeralarga/s22ulra.png)  hsl(202deg 86% 9%);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 45%;
+            font-family: 'Poppins', sans-serif;
+        
+        }
         /* header .three{
             grid-row: 0/0;
             grid-column: 0/0;
@@ -1371,7 +1386,7 @@ footer p{
    font-family: 'Poppins', sans-serif;;
     font-size: 15px ;
 }
-    .imgone{
+.imgone{
     width: 45%;
 }
 .imgtwo{
