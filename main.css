@@ -573,9 +573,57 @@ background-color: hsl(32,51%,83%);
     background-size: cover;
     border: 3px hsl(32,51%,83%) solid;
 }
-
-
-
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(202deg 86% 9%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+padding-top: 40px;
+gap: 40px   ;
+}
+footer .contenedorone{
+    display: flex;
+    gap: 60px   ;
+    width: 27%;
+    height: 110%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer .contenedorone .facebook{
+    width: 27%;
+    height: 110px;
+    margin: 0 auto;
+}
+footer .contenedorone .instagram{
+    width: 27%;
+    height: 110px;
+    margin: 0 auto;
+}
+footer .contenedorone .gmail{
+    width: 27%;
+    height: 110px;
+    margin: 0 auto;
+}
+footer .contenedorone .whatapp{
+    width: 25%;
+    height: 100px;
+    margin: 0 auto;
+}
+footer .info{
+  width: 30%;
+  height: 100px;
+  background-color: hsl(32,51%,83%);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
 
 @media (max-width:949px) {
     section .contenedorflex{
@@ -587,6 +635,7 @@ background-color: hsl(32,51%,83%);
         justify-content: center;
         align-items: center;
     }
+
 }
 
 @media (max-width:1024px) {
@@ -803,7 +852,21 @@ flex-direction: column;
         background-size: cover;
         border: 3px hsl(32,51%,83%) solid; */
     }
-       
+    footer{
+        width: 100%;
+        height: 100%;
+        background-color: hsl(202deg 86% 9%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    padding-top: 40px;
+    }
+    footer .contenedorone{
+        width: 50%;
+        gap: 20px   ;
+    }
 }
 
 @media (max-width:700px) {
@@ -877,6 +940,45 @@ header .contenidomenures ul li:hover{
         align-items: center;
         font-size: 15px;
     }
+    footer{
+        width: 100%;
+        height: 100%;
+        background-color: hsl(202deg 86% 9%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    padding-top: 40px;
+    }
+    footer .info{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    footer .contenedorone{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    footer .contenedorone .facebook{
+        width: 40%;
+        height: 140px;
+        background-size: 50%;
+    }
+    footer .contenedorone .instagram{
+        width: 40%;
+        height: 140px;
+        background-size: 50%;
+    }
+    footer .contenedorone .whatapp{
+        width: 40%;
+        height: 140px;
+        background-size: 50%;
+    }
+    footer .contenedorone .gmail{
+        width: 40%;
+        height: 140px;
+        background-size: 50%;
+    }
 }
 
 @media (max-width:473px) {
@@ -936,7 +1038,8 @@ section .contenedorflex .separador .cuadrocuatro{
     width:90%;
 }
 .equipo .equipoflex .personone{
-    width:100%;
+    margin: 0 auto;
+    width: 80%;
     height: 550px;
     border-radius: 30px;
     background: url(./Imagenes/personal/mujer.webp);
@@ -944,6 +1047,35 @@ section .contenedorflex .separador .cuadrocuatro{
     background-position: top;
     background-size: 730px;
     background-color: hsl(32,51%,83%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+.equipo .equipoflex .persontwo{
+    width:80%;
+    height: 550px;
+    margin: 0 auto;
+    background: url(./Imagenes/personal/woody.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 670px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
+
+.equipo .equipoflex .personthree{
+    width:80%;
+    height: 550px;
+    margin: 0 auto;
+    background: url(./Imagenes/personal/programador.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 670px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -1033,5 +1165,44 @@ section .contenedorflex .separador .cuadrocuatro{
 .redesfour{
     display: none;
 
+}
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(202deg 86% 9%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+padding-top: 40px;
+}
+footer .info{
+    width: 80%;
+    margin-bottom: 10px;
+}
+footer .contenedorone{
+    width: 80%;
+    margin-bottom: 10px;
+}
+footer .contenedorone .facebook{
+    width: 30%;
+    height: 100px;
+    background-size: 50%;
+}
+footer .contenedorone .instagram{
+    width: 30%;
+    height: 100px;
+    background-size: 50%;
+}
+footer .contenedorone .whatapp{
+    width: 30%;
+    height: 100px;
+    background-size: 50%;
+}
+footer .contenedorone .gmail{
+    width: 30%;
+    height: 100px;
+    background-size: 50%;
 }
 }
