@@ -623,6 +623,8 @@ footer .info{
   text-align: center;
   align-items: center;
   display: flex;
+  font-size: 18px;
+ color:  'Poppins', sans-serif;
 }
 
 @media (max-width:949px) {
@@ -1103,7 +1105,7 @@ section .contenedorflex .separador .cuadrocuatro{
     width: 90%;
     height: 100%;
   margin: 0 auto;
-    padding: 50px 0 50px 0;
+    padding: 20px 0 20px 0;
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1131,10 +1133,10 @@ section .contenedorflex .separador .cuadrocuatro{
     color: rgb(71, 71, 71);
     position: end;
     font-family: 'Poppins', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 }
 .padreredes h3{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: hsl(32,51%,83%);
 }
@@ -1144,7 +1146,7 @@ section .contenedorflex .separador .cuadrocuatro{
     background-color: hsl(32,51%,83%) ;
     padding: 8px;
     margin:0 auto;
-    font-size: 12px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     
 }
@@ -1206,4 +1208,5 @@ footer .contenedorone .gmail{
     height: 100px;
     background-size: 50%;
 }
+
 }
